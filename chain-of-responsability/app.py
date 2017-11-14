@@ -10,7 +10,7 @@ buget.add_item(Item('PC Gamer', 2600))
 print("value:", buget.value)
 
 calc_discount = Calc_Discount()
-print("with discount:", calc_discount.calculate(buget))
+print("with discount:", buget.value - calc_discount.calculate(buget))
 
 
 

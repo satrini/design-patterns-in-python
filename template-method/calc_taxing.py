@@ -1,3 +1,3 @@
 class Calc_Taxing():
-	def to_apply(self, buget, taxing):
+	def calculate(self, buget, taxing):
 		return taxing.calculate(buget)

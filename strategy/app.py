@@ -6,5 +6,5 @@ buget = Buget(500)
 taxing = Calc_Taxing()
 
 print("Value:", buget.value)
-print("with ICMS:", taxing.toApply(buget, ICMS()) + buget.value)
-print("with ISS:", taxing.toApply(buget, ISS()) + buget.value)
+print("with ICMS:", taxing.calculate(buget, ICMS()) + buget.value)
+print("with ISS:", taxing.calculate(buget, ISS()) + buget.value)
